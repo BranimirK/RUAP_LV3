@@ -59,10 +59,10 @@ register.</p>
 // DB connection info
 // TODO: Update the values for $host, $user, $pwd, and $db //using the values you retrieved
 //earlier from the Azure Portal. $host = "value of Data Source";
-$host = "localhost";
-$user = "user123";
-$pwd = "user12345";
-$db = "user123";
+$host = "bkedacic-mysqldbserver.mysql.database.azure.com";
+$user = "ruapUser@bkedacic-mysqldbserver";
+$pwd = "Ruaplv123";
+$db = "ruapdb";
 // Connect to database.
 $conn = mysqli_connect($host, $user, $pwd, $db);
 if (mysqli_connect_errno())
